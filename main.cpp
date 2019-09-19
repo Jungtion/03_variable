@@ -4,7 +4,15 @@
 
 int main(int argc, char** argv) {
 	
-	printf("Hello Sookmyung EE!\n");
+	int x		;
+	short y		;
+	float z		;
+	double p	;
+	
+	printf("bytes of int : %d\n", sizeof(x))		;
+	printf("bytes of short : %d\n", sizeof(y))		;
+	printf("bytes of float : %d\n", sizeof(z))		;
+	printf("bytes of double : %d\n", sizeof(p))		;
 	
 	return 0;
 }
